@@ -28,13 +28,13 @@ function updateCartQuantity() {
     quantityEl.style.display = 'none';
   }
 }
-function addToCart(button) {
-  const card = button.closest('.product-card');
-  const sizeSelect = card.querySelector('.size-select');
-  const variantId = sizeSelect.value;
-  // Тут можна реалізувати додавання до кошика у ваш json чи localStorage
-  alert(`Додано до кошика товар з id: ${variantId}`);
-}
+// function addToCart(button) {
+//   const card = button.closest('.product-card');
+//   const sizeSelect = card.querySelector('.size-select');
+//   const variantId = sizeSelect.value;
+//   // Тут можна реалізувати додавання до кошика у ваш json чи localStorage
+//   alert(`Додано до кошика товар з id: ${variantId}`);
+// }
 let cart = [];
 
 function addToCart(button) {
