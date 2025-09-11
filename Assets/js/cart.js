@@ -18,6 +18,9 @@ fetch('/shoes_store_tg/Assets/db.json')
       catalog.appendChild(card);
     });
   });
+
+
+  let cart = [];
 function updateCartQuantity() {
   const quantityEl = document.getElementById('cart-quantity');
   const totalCount = cart.reduce((sum, item) => sum + item.quantity, 0);
@@ -28,14 +31,6 @@ function updateCartQuantity() {
     quantityEl.style.display = 'none';
   }
 }
-// function addToCart(button) {
-//   const card = button.closest('.product-card');
-//   const sizeSelect = card.querySelector('.size-select');
-//   const variantId = sizeSelect.value;
-//   // Тут можна реалізувати додавання до кошика у ваш json чи localStorage
-//   alert(`Додано до кошика товар з id: ${variantId}`);
-// }
-let cart = [];
 
 function addToCart(button) {
   const card = button.closest('.product-card');

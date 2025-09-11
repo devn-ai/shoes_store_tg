@@ -23,6 +23,7 @@ document.getElementById('order-form').addEventListener('submit', function (e) {
       if (response.ok) {
         alert('Замовлення надіслано!');
         cart = [];
+        updateCartQuantity();
         hideCart();
       } else {
         alert('Помилка при відправці замовлення');
