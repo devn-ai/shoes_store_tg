@@ -14,7 +14,7 @@ fetch('/shoes_store_tg/Assets/db.json')
           ${product.variants.map(v => `<option value="${v.id}">${v.size}</option>`).join('')}
         </select>
         <button onclick="addToCart(this)">Замовити</button>
-      `;
+      `;  
       catalog.appendChild(card);
     });
   });
