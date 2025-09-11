@@ -6,7 +6,7 @@ document.getElementById('order-form').addEventListener('submit', function (e) {
 
   if (!name || !phone) {
     alert('Будь ласка, заповніть всі поля');
-    return;
+    return false; // Не відправляти форму!
   }
 
   const orderData = {
