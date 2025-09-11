@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Файні Кроси Шоп</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link href="Assets/style/style.css" rel="stylesheet"/>
+</head>
+<body>
+<button onclick="showCart()">Перейти до кошика</button>
+
+<div id="cart-popup" style="display:none; position:fixed; top:20%; left:30%; background:#fff; border:1px solid #ccc; padding:20px; z-index:1000;">
+  <h3>Ваше замовлення</h3>
+  <div id="cart-items"></div>
+  <form id="order-form">
+    Ім'я: <input type="text" id="customer-name" required /><br />
+    Телефон: <input type="tel" id="customer-phone" required /><br />
+    <button type="submit">Відправити замовлення</button>
+    <button type="button" onclick="hideCart()">Закрити</button>
+  </form>
+</div>
+  
+<div id="product-catalog"></div>
+<script src="Assets/js/cart.js"></script>
+<script src="Assets/js/webhook.js"></script>
+</body>
+</html>

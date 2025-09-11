@@ -1,0 +1,89 @@
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('../images/backshoes.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;        /* Завжди розтягує по viewport */
+  background-position: center;   /* Центрує картинку */
+  background-attachment: fixed;  /* Фіксує фон при прокрутці */
+}
+    
+.card { 
+    background: #fff; 
+    border-radius: 12px; 
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08); 
+    max-width: 320px; 
+    margin: 0 auto; 
+    padding: 32px;
+}
+    
+button { 
+    background: #229ED9; 
+    color: #fff; 
+    border: none; 
+    padding: 12px 22px; 
+    border-radius: 8px; 
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+#product-catalog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);  /* Два продукти у рядку */
+  gap: 32px 16px;                        /* Відступи між картками */
+  padding: 16px;
+}
+
+.product-card {
+  background: #fff;
+  border: 1.5px solid #e3e3e3;
+  border-radius: 18px;
+  box-shadow: 0 3px 20px rgba(52, 52, 52, 0.08);
+  padding: 20px;
+  transition: box-shadow .2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-card img {
+  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 18px;
+}
+
+.product-card h2 {
+  margin: 8px 0 4px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.product-card .product-price {
+  color: #007055;
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.product-card button,
+.product-card select {
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+#cart-popup {
+  border-radius: 14px;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.13);
+  min-width: 320px;
+}
+
+#cart-popup input {
+  border-radius: 6px;
+  margin: 4px 0;
+  padding: 5px 8px;
+  border: 1px solid #bdbdbd;
+}

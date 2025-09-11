@@ -1,0 +1,81 @@
+[
+  {
+    "brand": "Adidas",
+    "model": "Ozweego Pro",
+    "color": "сіро-білий",
+    "price": 3500,
+    "image": "https://static.qns.digital/img/p/2/9/0/4/9/2/5/2904925-full_product.jpg",
+    "variants": [
+      { "id": 123, "size": "44.5" },
+      { "id": 124, "size": "43.5" },
+      { "id": 125, "size": "42.5" },
+      { "id": 126, "size": "41.5" },
+      { "id": 127, "size": "40.5" }
+    ]
+  },
+  {
+    "brand": "New Balance",
+    "model": "530",
+    "color": "сіро-зелені",
+    "price": 2500,
+    "image": "https://img01.ztat.net/article/spp-media-p1/eed6f88a2e1d45129ed71b2dfafc95d5/897fd2f6e53644449b6166fc14ded4b9.jpg",
+    "variants": [
+      { "id": 128, "size": "45" },
+      { "id": 129, "size": "44" },
+      { "id": 130, "size": "43" },
+      { "id": 131, "size": "42" },
+      { "id": 132, "size": "41" }
+    ]
+  },
+  {
+    "brand": "Nike",
+    "model": "P-6000",
+    "color": "cірі",
+    "price": 3400,
+    "image": "https://vzutistore.com.ua/6459-thickbox_default/nike-p-6000-summit-white-pure-platinum.jpg",
+    "variants": [{ "id": 133, "size": "45" }]
+  },
+  {
+    "brand": "Nike",
+    "model": "P-6001",
+    "color": "cірі",
+    "price": 3400,
+    "image": "https://img01.ztat.net/article/spp-media-p1/ed4b66f531d64e91bcbb2f484a902305/7ab29fb921ca4f30aab6ccc3a5542f34.jpg",
+    "variants": [{ "id": 134, "size": "44" }]
+  },
+  {
+    "brand": "Nike",
+    "model": "P-6002",
+    "color": "cірі",
+    "price": 3400,
+    "variants": [{ "id": 135, "size": "43" }]
+  },
+  {
+    "brand": "Nike",
+    "model": "P-6003",
+    "color": "cірі",
+    "price": 3400,
+    "variants": [{ "id": 136, "size": "42" }]
+  },
+  {
+    "brand": "Nike",
+    "model": "P-6004",
+    "color": "cірі",
+    "price": 3400,
+    "variants": [{ "id": 137, "size": "41" }]
+  },
+  {
+    "brand": "Puma",
+    "model": "Suede XL",
+    "color": "рожево-коричневі",
+    "price": 2700,
+    "image": "https://vzutistore.com.ua/5916-large_default/puma-suede-xl-chestnut-brown-peach-smoothie.jpg",
+    "variants": [
+      { "id": 138, "size": "42" },
+      { "id": 139, "size": "41" },
+      { "id": 140, "size": "40" },
+      { "id": 141, "size": "39" },
+      { "id": 142, "size": "38" }
+    ]
+  }
+]
