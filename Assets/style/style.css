@@ -13,6 +13,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 16px;
+  position: relative;
 }
 
 #company-text {
@@ -43,6 +44,7 @@ body {
   padding: 20px;
   box-shadow: 0 6px 32px rgba(0,0,0,0.13);
   height: fit-content;
+  margin-left: auto; 
 }
 
 #cart-button {
@@ -138,16 +140,47 @@ button {
   margin-top: 10px;
   border-radius: 8px;
 }
-
+#cart-popup input[type="text"],
+#cart-popup input[type="tel"] {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #bdbdbd;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
 #cart-popup {
   border-radius: 14px;
   box-shadow: 0 6px 32px rgba(0,0,0,0.13);
   min-width: 320px;
 }
-
+#cart-popup form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Простір між полями та кнопками */
+}
 #cart-popup input {
   border-radius: 6px;
   margin: 4px 0;
   padding: 5px 8px;
   border: 1px solid #bdbdbd;
+}
+
+#cart-popup button {
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+}
+
+#cart-popup button[type="submit"] {
+  background-color: #007055;
+  color: white;
+}
+
+#cart-popup button[type="button"] {
+  background-color: #ccc;
+  color: #444;
 }
