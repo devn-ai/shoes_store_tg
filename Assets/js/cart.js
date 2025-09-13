@@ -66,17 +66,16 @@ document.getElementById('order-form').addEventListener('submit', function (e) {
   const name = document.getElementById('customer-name').value.trim();
   const phone = document.getElementById('customer-phone').value.trim();
   const delivery = document.getElementById('customer-delivery').value.trim():
-  const userId = document.getElementById('customer-id').value.trim();
+  const Id = document.getElementById('customer-id').value.trim();
 
-  if (!name || !phone || !delivery || !userId) {
+  if (!name || !phone || !delivery || !Id) {
     alert('Будь ласка, заповніть всі поля');
     return false; // Не відправляти форму!
   }
 
   const orderData = {
-    customer: { name, phone, delivery },
-    items: cart,
-    user_id: userId
+    customer: { name, phone, delivery, Id },
+    items: cart
   };
 
   fetch('https://hook.eu2.make.com/1ettzvhwvhnmag3f5otfig2ospqw2nd9', {
