@@ -20,7 +20,7 @@ fetch('/shoes_store_tg/Assets/db.json')
   });
 
 
-let cart = [];
+  let cart = [];
 function updateCartQuantity() {
   const quantityEl = document.getElementById('cart-quantity');
   const totalCount = cart.reduce((sum, item) => sum + item.quantity, 0);
