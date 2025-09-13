@@ -18,9 +18,19 @@ fetch('/shoes_store_tg/Assets/db.json')
       catalog.appendChild(card);
     });
   });
+window.addEventListener('DOMContentLoaded', function () {
+  // Перевіряємо, чи підключений Telegram WebApp
+  if (window.Telegram && Telegram.WebApp && Telegram.WebApp.initDataUnsafe && Telegram.WebApp.initDataUnsafe.user) {
+    const userId = Telegram.WebApp.initDataUnsafe.user.id;
+    document.getElementById('customer-id').value = userId;
+  } else {
+    // fallback, якщо доступу до Telegram WebApp немає (наприклад, не з Telegram)
+    document.getElementById('customer-id').value = '';
+  }
+});
 
 
-  let cart = [];
+let cart = [];
 function updateCartQuantity() {
   const quantityEl = document.getElementById('cart-quantity');
   const totalCount = cart.reduce((sum, item) => sum + item.quantity, 0);
@@ -65,15 +75,18 @@ document.getElementById('order-form').addEventListener('submit', function (e) {
 
   const name = document.getElementById('customer-name').value.trim();
   const phone = document.getElementById('customer-phone').value.trim();
+  const delivery = document.getElementById('customer-delivery').value.trim():
+  const userId = document.getElementById('customer-id').value.trim();
 
-  if (!name || !phone) {
+  if (!name || !phone || !delivery || !userId) {
     alert('Будь ласка, заповніть всі поля');
     return false; // Не відправляти форму!
   }
 
   const orderData = {
-    customer: { name, phone },
-    items: cart
+    customer: { name, phone, delivery },
+    items: cart,
+    user_id: userId
   };
 
   fetch('https://hook.eu2.make.com/1ettzvhwvhnmag3f5otfig2ospqw2nd9', {
