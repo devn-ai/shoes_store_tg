@@ -9,9 +9,6 @@
 <body>
 
   <div id="main-container">
-    <div id="company-text">
-      Файні Кроси Шоп
-    </div>
 
     <div id="cart-sidebar">
       <button id="cart-button" onclick="showCart()">
@@ -24,6 +21,8 @@
         <form id="order-form">
           Ім'я: <input type="text" id="customer-name" required /><br />
           Телефон: <input type="tel" id="customer-phone" required /><br />
+          Відділ новой пошти: <input type="tel" id="customer-delivery" required /><br />
+          <input type="hidden" id="customer-id" name="customer-id"/>
           <button type="submit">Відправити замовлення</button>
           <button type="button" onclick="hideCart()">Закрити</button>
         </form>
