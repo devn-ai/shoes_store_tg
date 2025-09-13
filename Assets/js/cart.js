@@ -66,15 +66,15 @@ document.getElementById('order-form').addEventListener('submit', function (e) {
   const name = document.getElementById('customer-name').value.trim();
   const phone = document.getElementById('customer-phone').value.trim();
   const delivery = document.getElementById('customer-delivery').value.trim():
-  const Id = document.getElementById('customer-id').value.trim();
+  const id = document.getElementById('customer-id').value.trim();
 
-  if (!name || !phone || !delivery || !Id) {
+  if (!name || !phone || !delivery || !id) {
     alert('Будь ласка, заповніть всі поля');
     return false; // Не відправляти форму!
   }
 
   const orderData = {
-    customer: { name, phone, delivery, Id },
+    customer: { name, phone, delivery, id },
     items: cart
   };
 
