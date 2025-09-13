@@ -9,7 +9,9 @@
 <body>
 
   <div id="main-container">
-    <div id="company-text"></div>
+    <div id="company-text">
+      test
+    </div>
     <div id="cart-sidebar">
       <button id="cart-button" onclick="showCart()">
         Кошик
@@ -22,7 +24,7 @@
           Ім'я: <input type="text" id="customer-name" required /><br />
           Телефон: <input type="tel" id="customer-phone" required /><br />
           Відділ новой пошти: <input type="tel" id="customer-delivery" required /><br />
-          <input type="hidden" id="customer-id" name="customer-id"/>
+         
           <button type="submit">Відправити замовлення</button>
           <button type="button" onclick="hideCart()">Закрити</button>
         </form>
@@ -30,8 +32,7 @@
     </div>
   </div>
 <div id="product-catalog"></div>
-<script src="/shoes_store_tg/Assets/js/cart.js" defer></script>
+<script src="Assets/js/cart.js"></script>
 </body>
-  
 <script src="Assets/js/webhook.js"></script>
 </html>
