@@ -165,7 +165,7 @@ button {
 }
 #cart-popup form {
   display: flex;
-  position: fixed;
+  position: absolute;
   flex-direction: column;
   gap: 10px; /* Простір між полями та кнопками */
 }
