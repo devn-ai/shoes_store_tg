@@ -65,7 +65,7 @@ document.getElementById('order-form').addEventListener('submit', function (e) {
 
   const name = document.getElementById('customer-name').value.trim();
   const phone = document.getElementById('customer-phone').value.trim();
-  const delivery = document.getElementById('customer-delivery').value.trim():
+  const delivery = document.getElementById('customer-delivery').value.trim();
   const id = document.getElementById('customer-id').value.trim();
 
   if (!name || !phone || !delivery || !id) {
