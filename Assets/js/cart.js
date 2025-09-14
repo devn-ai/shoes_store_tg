@@ -89,6 +89,11 @@ document.getElementById('order-form').addEventListener('submit', function (e) {
   const delivery = document.getElementById('customer-delivery').value.trim();
   const id = document.getElementById('customer-id').value.trim();
 
+  if (!cart || cart.length === 0) {
+    alert('Кошик порожній. Додайте товари перед оформленням замовлення.');
+    return false; // Не відправляти форму
+  }
+
   if (!name || !phone || !delivery || !id) {
     alert('Будь ласка, заповніть всі поля');
     return false; // Не відправляти форму!
