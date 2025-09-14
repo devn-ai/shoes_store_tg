@@ -80,7 +80,9 @@ function renderCartItems() {
       return `<div><strong>Товар: ${info.brand} ${info.model} Кількість: ${item.quantity}</strong></div>`;
   }).join('');
 }
-
+setTimeout(() => {
+  document.getElementById('customer-name').focus();
+}, 100);
 document.getElementById('order-form').addEventListener('submit', function (e) {
   e.preventDefault();
 
