@@ -11,12 +11,13 @@
   <div id="main-container">
 
       <div id="cart-sidebar">
-
-        <button id="cart-button" onclick="showCart()">
-          Кошик
-          <div id="cart-quantity" style="display:none">0</div>
-        </button>
-
+        <div class="cart-header">
+          <img src="logo.png" alt="Лого" class="cart-logo" />
+          <button id="cart-button" onclick="showCart()">
+            Кошик
+            <div id="cart-quantity" style="display:none">0</div>
+          </button>
+        </div>
       <div id="cart-popup" style="display:none; margin-top: 16px;">
         <h3>Ваше замовлення</h3>
         <div id="cart-items"></div>
