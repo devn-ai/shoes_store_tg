@@ -77,7 +77,7 @@ function renderCartItems() {
   container.innerHTML = cart.map(item =>{
     const info = findProductInfo(item.id);
       if (!info) return `<div>Невідомий товар</div>`;
-      return `<div>Товар: ${info.brand} ${info.model} Кількість: ${item.quantity}</div>`;
+      return `<div><strong>Товар: ${info.brand} ${info.model} Кількість: ${item.quantity}</strong></div>`;
   }).join('');
 }
 
