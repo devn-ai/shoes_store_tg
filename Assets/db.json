@@ -109,7 +109,7 @@
     "model": "Jazz Original",
     "color": "чорні",
     "price": 3890,
-    "image": "Assets/images/jazblack.jpg",
+    "image": "Assets/images/jazzblack.jpg",
     "variants": [
       { "id": 158, "size": "42" },
       { "id": 159, "size": "42,5" },
