@@ -149,6 +149,12 @@ button {
   margin-top: 10px;
   border-radius: 8px;
 }
+
+#cart-popup input {
+  position: relative;
+  z-index: 10;
+}
+
 #cart-popup input[type="text"],
 #cart-popup input[type="tel"] {
   padding: 8px;
