@@ -55,9 +55,28 @@ function hideCart() {
   document.getElementById('cart-popup').style.display = 'none';
 }
 
+function findProductInfo(id) {
+  for (const product of products) {
+    for (const variant of product.variants) {
+      if (variant.id == id) {
+        return {
+          brand: product.brand,
+          model: product.model,
+          size: variant.size
+        };
+      }
+    }
+  }
+  return null;
+}
+
 function renderCartItems() {
   const container = document.getElementById('cart-items');
-  container.innerHTML = cart.map(item => `<div>Товар: ${item.brand} ${item.model} Кількість: ${item.quantity}</div>`).join('');
+  container.innerHTML = cart.map(item =>{
+    const info = findProductInfo(item.id);
+      if (!info) return `<div>Невідомий товар</div>`;
+      return `<div>Товар: ${info.brand} ${info.model} Кількість: ${item.quantity}</div>`;
+  }).join('');
 }
 
 document.getElementById('order-form').addEventListener('submit', function (e) {
