@@ -1,6 +1,8 @@
+let products_list = [];
 fetch('/shoes_store_tg/Assets/db.json')
   .then(response => response.json())
   .then(products => {
+    products_list = products;
     const catalog = document.getElementById('product-catalog');
     products.forEach(product => {
       const card = document.createElement('div');
@@ -56,7 +58,7 @@ function hideCart() {
 }
 
 function findProductInfo(id) {
-  for (const product of products) {
+  for (const product of products_list) {
     for (const variant of product.variants) {
       if (variant.id == id) {
         return {
