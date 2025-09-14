@@ -57,7 +57,7 @@ function hideCart() {
 
 function renderCartItems() {
   const container = document.getElementById('cart-items');
-  container.innerHTML = cart.map(item => `<div>Товар ID: ${item.id} Кількість: ${item.quantity}</div>`).join('');
+  container.innerHTML = cart.map(item => `<div>Товар: ${item.brand} ${item.model} Кількість: ${item.quantity}</div>`).join('');
 }
 
 document.getElementById('order-form').addEventListener('submit', function (e) {
