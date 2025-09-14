@@ -48,7 +48,7 @@
     "model": "Dunk Low Retro",
     "color": "біло-cірі",
     "price": 6190,
-    "image": "shoes_store_tg/Assets/images/airforcegrey.jpg",
+    "image": "Assets/images/airforcegrey.jpg",
     "variants": [
       { "id": 135, "size": "40,5" },
       { "id": 136, "size": "41" },
@@ -63,7 +63,7 @@
     "model": "Air Force 1 Low 07",
     "color": "білі",
     "price": 6190,
-    "image": "shoes_store_tg/Assets/images/airforcewhite.webp",
+    "image": "Assets/images/airforcewhite.webp",
     "variants": [
       { "id": 146, "size": "41" },
       { "id": 147, "size": "42" },
@@ -76,7 +76,7 @@
     "model": "React Vision",
     "color": "чорні",
     "price": 5390,
-    "image": "shoes_store_tg/Assets/images/reactblack.jpg",
+    "image": "Assets/images/reactblack.jpg",
     "variants": [
       { "id": 150, "size": "41,5" },
       { "id": 151, "size": "42" },
@@ -93,7 +93,7 @@
     "model": "Air Pegasus Wave",
     "color": "чорні",
     "price": 5190,
-    "image": "shoes_store_tg/Assets/images/pegasusblack.jpg",
+    "image": "Assets/images/pegasusblack.jpg",
     "variants": [
       { "id": 165, "size": "42" },
       { "id": 166, "size": "42,5" },
@@ -109,7 +109,7 @@
     "model": "Jazz Original",
     "color": "чорні",
     "price": 3890,
-    "image": "shoes_store_tg/Assets/images/jazblack.jpg",
+    "image": "Assets/images/jazblack.jpg",
     "variants": [
       { "id": 158, "size": "42" },
       { "id": 159, "size": "42,5" },
@@ -125,7 +125,7 @@
     "model": "2002R",
     "color": "чорні",
     "price": 4390,
-    "image": "shoes_store_tg/Assets/images/2002rblack.jpg",
+    "image": "Assets/images/2002rblack.jpg",
     "variants": [
       { "id": 172, "size": "40" },
       { "id": 173, "size": "41" },
