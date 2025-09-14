@@ -44,6 +44,7 @@ body {
   padding: 20px;
   box-shadow: 0 6px 32px rgba(0,0,0,0.13);
   height: fit-content;
+  margin-left: auto;
 }
 .cart-header {
   display: flex;
@@ -65,10 +66,7 @@ body {
   cursor: pointer;
   font-weight: 700;
   font-size: 1.1rem;
-  flex-grow: 1; /* Займає решту рядка */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 
 #cart-quantity {
