@@ -151,7 +151,6 @@ button {
 }
 #cart-popup input[type="text"],
 #cart-popup input[type="tel"] {
-  position: absolute;
   padding: 8px;
   border-radius: 6px;
   border: 1px solid #bdbdbd;
@@ -166,6 +165,7 @@ button {
 }
 #cart-popup form {
   display: flex;
+  position: fixed;
   flex-direction: column;
   gap: 10px; /* Простір між полями та кнопками */
 }
