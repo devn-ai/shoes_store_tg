@@ -30,7 +30,7 @@
   {
     "brand": "Nike",
     "model": "P-6000",
-    "color": "cірі",
+    "color": "білі",
     "price": 3400,
     "image": "https://vzutistore.com.ua/6459-thickbox_default/nike-p-6000-summit-white-pure-platinum.jpg",
     "variants": [{ "id": 133, "size": "45" }]
@@ -45,24 +45,94 @@
   },
   {
     "brand": "Nike",
-    "model": "P-6002",
-    "color": "cірі",
-    "price": 3400,
-    "variants": [{ "id": 135, "size": "43" }]
+    "model": "Dunk Low Retro",
+    "color": "біло-cірі",
+    "price": 6190,
+    "image": "shoes_store_tg/Assets/images/airforcegrey.jpg",
+    "variants": [
+      { "id": 135, "size": "40,5" },
+      { "id": 136, "size": "41" },
+      { "id": 137, "size": "41,5" },
+      { "id": 138, "size": "42" },
+      { "id": 139, "size": "42,5" },
+      { "id": 140, "size": "43" }
+    ]
   },
   {
     "brand": "Nike",
-    "model": "P-6003",
-    "color": "cірі",
-    "price": 3400,
-    "variants": [{ "id": 136, "size": "42" }]
+    "model": "Air Force 1 Low 07",
+    "color": "білі",
+    "price": 6190,
+    "image": "shoes_store_tg/Assets/images/airforcewhite.webp",
+    "variants": [
+      { "id": 146, "size": "41" },
+      { "id": 147, "size": "42" },
+      { "id": 148, "size": "43" },
+      { "id": 149, "size": "44" },
+    ]
   },
   {
     "brand": "Nike",
-    "model": "P-6004",
-    "color": "cірі",
-    "price": 3400,
-    "variants": [{ "id": 137, "size": "41" }]
+    "model": "React Vision",
+    "color": "чорні",
+    "price": 5390,
+    "image": "shoes_store_tg/Assets/images/reactblack.jpg",
+    "variants": [
+      { "id": 150, "size": "41,5" },
+      { "id": 151, "size": "42" },
+      { "id": 152, "size": "42,5" },
+      { "id": 153, "size": "43" },
+      { "id": 154, "size": "43,5" },
+      { "id": 155, "size": "44" },
+      { "id": 156, "size": "44,5" },
+      { "id": 157, "size": "45" }
+    ]
+  },
+  {
+    "brand": "Nike",
+    "model": "Air Pegasus Wave",
+    "color": "чорні",
+    "price": 5190,
+    "image": "shoes_store_tg/Assets/images/pegasusblack.jpg",
+    "variants": [
+      { "id": 165, "size": "42" },
+      { "id": 166, "size": "42,5" },
+      { "id": 167, "size": "43" },
+      { "id": 168, "size": "43,5" },
+      { "id": 169, "size": "44" },
+      { "id": 170, "size": "44,5" },
+      { "id": 171, "size": "45" }
+    ]
+  },
+  {
+    "brand": "Saucony",
+    "model": "Jazz Original",
+    "color": "чорні",
+    "price": 3890,
+    "image": "shoes_store_tg/Assets/images/jazblack.jpg",
+    "variants": [
+      { "id": 158, "size": "42" },
+      { "id": 159, "size": "42,5" },
+      { "id": 160, "size": "43" },
+      { "id": 161, "size": "43,5" },
+      { "id": 162, "size": "44" },
+      { "id": 163, "size": "44,5" },
+      { "id": 164, "size": "45" }
+    ]
+  },
+  {
+    "brand": "New Balance",
+    "model": "2002R",
+    "color": "чорні",
+    "price": 4390,
+    "image": "shoes_store_tg/Assets/images/2002rblack.jpg",
+    "variants": [
+      { "id": 172, "size": "40" },
+      { "id": 173, "size": "41" },
+      { "id": 174, "size": "41,5" },
+      { "id": 175, "size": "42" },
+      { "id": 176, "size": "42,5" },
+    ]
   },
   {
     "brand": "Puma",
@@ -71,11 +141,11 @@
     "price": 2700,
     "image": "https://vzutistore.com.ua/5916-large_default/puma-suede-xl-chestnut-brown-peach-smoothie.jpg",
     "variants": [
-      { "id": 138, "size": "42" },
-      { "id": 139, "size": "41" },
-      { "id": 140, "size": "40" },
-      { "id": 141, "size": "39" },
-      { "id": 142, "size": "38" }
+      { "id": 141, "size": "42" },
+      { "id": 142, "size": "41" },
+      { "id": 143, "size": "40" },
+      { "id": 144, "size": "39" },
+      { "id": 145, "size": "38" }
     ]
   }
 ]
