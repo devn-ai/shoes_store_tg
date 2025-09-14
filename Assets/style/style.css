@@ -44,9 +44,12 @@ body {
   padding: 20px;
   box-shadow: 0 6px 32px rgba(0,0,0,0.13);
   height: fit-content;
-  margin-left: auto; 
 }
-
+.cart-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
 #cart-button {
   position: relative;
   padding: 10px 20px;
@@ -57,7 +60,10 @@ body {
   cursor: pointer;
   font-weight: 700;
   font-size: 1.1rem;
-  width: 100%;
+  flex-grow: 1; /* Займає решту рядка */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #cart-quantity {
