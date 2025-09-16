@@ -104,7 +104,7 @@ document.getElementById('order-form').addEventListener('submit', function (e) {
     items: cart
   };
 
-  fetch('https://hook.eu2.make.com/1ettzvhwvhnmag3f5otfig2ospqw2nd9', {
+  fetch('https://hook.eu2.make.com/f1suq29pmp88rw2yadklbudc4mmlvnhs', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(orderData)
